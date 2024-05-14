@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variables</title>
+  </head>
+  <body>
+    <p>My cart</p>
+    <button onclick="console.log(`The cart is now ${count} elements`);">
+      Show my cart
+    </button>
+    <button
+      onclick="count += 1;console.log(`The cart is now ${count} elements`);"
+    >
+      add to card
+    </button>
+    <button
+      onclick="count += 2;console.log(`The cart is now ${count} elements`)"
+    >
+      +2
+    </button>
+    <button
+      onclick="count += 3;console.log(`The cart is now ${count} elements`)"
+    >
+      +3
+    </button>
+    <button onclick="count = 0;console.log('cart reseted to 0');">Reset</button>
+    <script>
+      let count = 0;
+    </script>
+  </body>
+</html>
