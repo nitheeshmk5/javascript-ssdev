@@ -1,0 +1,38 @@
+* {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 3em;
+  border-radius: 50%;
+  border: 2px solid darkgrey;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+
+h2 {
+  color: gray;
+  background-color: yellow;
+  display: inline;
+  padding: 10px;
+}
+
+.reset {
+  width: 100px;
+  height: 50px;
+  font-size: 1em;
+  border-radius: 10px;
+}
