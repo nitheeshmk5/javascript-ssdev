@@ -1,0 +1,32 @@
+* {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 3em;
+  border-radius: 50%;
+  border: 2px solid darkgrey;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: grey;
+  font-size: 3.2em;
+}
+
+h2 {
+  color: gray;
+  background-color: yellow;
+  display: inline;
+  padding: 10px;
+}
